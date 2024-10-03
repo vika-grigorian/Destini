@@ -31,7 +31,7 @@ class ViewController: UIViewController {
 
     @IBAction func choiceMade(_ sender: UIButton) {
         
-        storyBrain.nextStory(sender.currentTitle!)
+        storyBrain.nextStory(userChoice: sender.currentTitle!)
         updateUI()
     }
 }
